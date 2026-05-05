@@ -1,11 +1,56 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>William Strothe Portfolio</title>
-		<link rel="stylesheet" href="index.css" />
-		<script src="index.js" defer></script>
-	</head>
-	<body></body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>William Strothe Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="page">
+      <div id="page-content">
+        <span class="page-title">About Me</span>
+        <div class="about-me">
+          <p>
+            I'm William Strothe, a Senior Software Developer based in Glendale,
+            Arizona. Passionate about programming, web development, an building
+            scalable solutions that make a difference.
+          </p>
+          <p>
+            At Rocket Mortgage Capital Markets, I lead modernization efforts
+            (Angular upgrades, Signals adoption, zoneless change detection),
+            improve developer workflows through shared patterns and
+            documentation, and mentor engineers through code reviews and
+            architecture guidance.
+          </p>
+          <p>
+            I also bring hands-on full-stack project experience (React,
+            Node/Express, REST APIs, Nx monorepos, SQL/NoSQL) and am continuing
+            to deepen backend/DevOps foundations through the MIT xPro Full Stack
+            program (GraphQL, Docker, AWS CI/CD, security, automated testing).
+          </p>
+        </div>
+        <span class="section-title">Highlights</span>
+        <div class="highlights">
+          <div class="highlight-cards">
+            <div class="highlight-card">
+              <span class="highlight-value">+5</span>
+              <span class="highlight-label">Years of Experience</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-value">+20</span>
+              <span class="highlight-label">Projects Completed</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-value">1000+</span>
+              <span class="highlight-label">Man Hours Saved</span>
+            </div>
+          </div>
+        </div>
+        <span class="section-title">Featured Projects</span>
+        <div id="projects-container"></div>
+      </div>
+    </div>
+  </body>
 </html>
