@@ -85,7 +85,7 @@ function generateUserInfoCard() {
   const card = document.createElement("div");
   card.id = "user-info-card";
   const img = document.createElement("img");
-  img.src = "/profile-picture.jpg";
+  img.src = "/Portoflio1/profile-picture.jpg";
   img.alt = "User";
   img.classList.add("user-picture");
   card.appendChild(img);
